@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>GloriaBoutique</title>
+      <link rel="icon" type="image/x-icon" href="/favicon-16x16.png" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="scriptsheet" href="script.js" />
+    </head>
+    
+    <body>
+       <!-- Header Section -->
+      <header>
+        <div class="header-logo">
+          <img class="logo-img" src="logo-g1.png" alt="website-logo" />
+          <div class="site-title">
+            <h1>GLORIA BOUTIQUE</h1>
+          </div>
+        </div>
+
+        <!-- Javascript Favorites-bar Section -->
+        <div class="Favorites-bar">
+          <div id="Favorites">
+            <input type="text" id="taskInput" placeholder="Enter the collection name" placeholder="Search for products..." />
+            <button id="addTaskButton">Add to Favorites</button>
+            <ul id="taskList"></ul>
+        </div>
+        <script src="script.js"></script>
+        
+        <!-- nav-container -->
+        <div class="nav-container">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        
+          <!-- search-bar -->
+          <div class="search-bar">
+            <input type="text" placeholder="Search for products..." />
+            <button class="btn" type="button">Search</button>
+          </div>
+  
+          <!-- Cart Icon in Header (already included) -->
+          <div class="cart" id="cart">
+            <img src="cart.svg" alt="cart" />  
+            <span class="tooltip">View Cart</span>
+          </div>
+
+          <!-- Cart Modal -->
+          <div id="modalCart" class="modal-cart">
+          <div class="modal-cart-content">
+          <!-- The content here will be dynamically updated by JavaScript -->
+          </div>
+          </div>
+
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="hero-text">
+            <h2>Welcome to Gloria Online Boutique!</h2>
+            <p>Find 
+              the Most Elegant Outfits in 
+              Old Money Style</p>
+            <button class="btn" type="button">Shop Now</button>
+          </div>
+        <div class="hero-image">
+            <img src="bg00.png" alt="Featured Product" loading="lazy" />
+          </div>
+        </section>
+        
+        <!-- Ladies Section -->
+        <section class="product-grid">
+          <h2>Ladies</h2>
+          <div class="products">
+            <div class="product">
+              <img src="w1.jpg" alt="Product 1" />
+              <h3>Sammer Haze</h3>
+              <p>
+                Elegant outfit for ladies.
+              </p>
+              <p>€2,600.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="w2.jpg" alt="Product 2" />
+              <h3>Autumn Breez</h3>
+              <p>
+                Elegant outfit for ladies.
+              </p>
+              <p>€4,400.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="w4.jpg" alt="Product 3" />
+              <h3>Night Angel</h3>
+              <p>
+                Elegant outfit for ladies.
+              </p>
+              <p>€1,350.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+ 
+        <!-- Gentlemen Section -->
+        <section class="product-grid">
+          <h2>Gentlemen</h2>
+          <div class="products">
+            <div class="product">
+              <img src="m0.jpg" alt="Product 1" />
+              <h3>Dream Boat</h3>
+              <p>
+                Elegant outfit for gentlemen.
+              </p>
+              <p>€620.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="m7.jpg" alt="Product 2" />
+              <h3>Sunshine</h3>
+              <p>
+                Elegant outfit for gentlemen.
+              </p>
+              <p>€1,110.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="m8.jpg" alt="Product 3" />
+              <h3>Prince Charming</h3>
+              <p>
+                Elegant outfit for gentlemen.
+              </p>
+              <p>€950.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Watches Section -->
+        <section class="product-grid">
+          <h2>Watches</h2>
+          <div class="products">
+            <div class="product">
+              <img src="rox.jpg" alt="Product 1" />
+              <h3>Rolex Set</h3>
+              <p>
+                Luxury matching watches.
+              </p>
+              <p>€32,500.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="vach.jpg" alt="Product 2" />
+              <h3>Vacheron Constantin Set</h3>
+              <p>
+                Luxury matching watches.
+              </p>
+              <p>€58,000.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+            <div class="product">
+              <img src="carti.jpg" alt="Product 3" />
+              <h3>Cartier Set</h3>
+              <p>
+                Luxury matching watches.
+              </p>
+              <p>€11,000.00</p>
+              <button class="btn" type="button">Add to Cart</button>
+              <!-- Java script add to the cart -->
+              <div id="modalCart" class="modal-cart">
+                <div class="modal-cart-content">
+                  <span class="modal-cart-close">&times;</span>
+                  <h1>Cart</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+      </main>
+      <!-- Footer Section -->
+      <footer>
+        <div class="footer-content">
+          <div class="subscribe">
+            <form class="subscription-form">
+             
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name">
+            
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+
+          <!-- Map Section -->
+           <div class="container">
+            <p>where Here: <a herf="berlin">Berlin</a></p>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d54975.03228694851!2d13.421189371308987!3d52.48680988178446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1729775930303!5m2!1sit!2sit"></iframe>
+           </div>
+          
+
+          
+          <p>Contact us: <a href="mailto:support@gloriaboutique.com">support@gloriaboutique.com</a></p>
+          <p>Follow us on:</p>
+          <ul class="social-media">
+            <li>
+              <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="facebook.png" alt="Facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                <img src="twitter.png" alt="Twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="instagram.png" alt="Instagram" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>    
+    </body>
+  </html>
